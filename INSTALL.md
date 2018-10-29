@@ -1,6 +1,6 @@
 # 安装
 
-If you want binary install, please see [README](README.md).
+如果您想要二进制安装，请参阅[自述文件](README.md)。
 
 ## Linux平台
 
