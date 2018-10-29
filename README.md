@@ -1,10 +1,10 @@
-# Deepin Boot Maker
+# 简OS启动盘制作工具
 
 Deepin Boot Maker is a tool that helps user to create a bootable usb stick quick and easy, it is designed to support deepin install iso, but it works for all ubuntu live install iso too.
 
 ![screenshot](https://raw.githubusercontent.com/linuxdeepin/deepin-boot-maker/master/docs/deepin-boot-maker.png)
 
-## Dependencies
+## 依赖
 
 Deepin Boot Maker is designed to support Windows/Linux/Mac platforms. It has no external dependencies on Windows and Mac OS. On Linux, you need packages below:
 
@@ -13,21 +13,21 @@ Deepin Boot Maker is designed to support Windows/Linux/Mac platforms. It has no 
 sudo apt-get install p7zip-full mtools syslinux syslinux-common
 ```
 
-Official support platform:
+官方支持平台：
 
 - Deepin 2015
 
 - Mac OSX 10.12
 
-- Windows 7 32/64bit, Windows 8 32/64 bit.
+- Windows 7 32/64位, Windows 8 32/64位。
 
-## Installation
+## 安装
 
 - Official binary release
 
 The only binary release is from Deepin OS iso for now. You can download iso from: https://www.deepin.org/original/deepin-boot-maker/. Or you can find binary file on the root of iso.
 
-- Repository Install
+- 存储库安装
 
 If you are deepin user, you can install Deepin Boot Maker from repository:
 
@@ -35,7 +35,7 @@ If you are deepin user, you can install Deepin Boot Maker from repository:
 sudo apt-get install deepin-boot-maker
 ```
 
-- Build and install
+- 编译与安装
 
 See [INSTALL](INSTALL.md) for detail.
 
@@ -52,7 +52,6 @@ Any usage issues can ask for help via
 
 We encourage you to report issues and contribute changes
 
-* [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en). (English)
 * [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) (中文)
 
 ## License
