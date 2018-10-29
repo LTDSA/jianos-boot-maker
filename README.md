@@ -37,7 +37,7 @@ sudo apt-get install deepin-boot-maker
 
 - 编译与安装
 
-See [INSTALL](INSTALL.md) for detail.
+有关详细信息，请参阅[INSTALL](INSTALL.md)。
 
 ## Getting help
 
