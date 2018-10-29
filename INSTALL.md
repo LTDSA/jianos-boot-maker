@@ -33,7 +33,7 @@ make
 - Qt5.8
 - Dtk
 
-### Build Qt static
+### 编译静态Qt
 
 ```
 configure -prefix "C:\Qt\QtStatic\5.8\vs2017" -release -platform win32-msvc2010 \
