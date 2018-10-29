@@ -19,7 +19,7 @@ sudo apt-get install p7zip-full mtools syslinux syslinux-common
 
 - Mac OSX 10.12
 
-- Windows 7 32/64位, Windows 8 32/64位。
+- Windows 7 32/64位、Windows 8 32/64位。
 
 ## 安装
 
@@ -54,7 +54,7 @@ We encourage you to report issues and contribute changes
 
 * [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) (中文)
 
-## License
+## 协议
 
 Deepin Boot Maker is licensed under [GPLv3](LICENSE).
 
