@@ -1,20 +1,20 @@
-# Installation
+# 安装
 
 If you want binary install, please see [README](README.md).
 
-## Linux Platform
+## Linux平台
 
-### Development Environment
+### 开发环境
 
-- Release base debian
+- 基于debian发布
 
-### Install Build Dependencies
+### 安装编译依赖
 
 ```bash
 sudo apt-get install debhelper python qt5-default qt5-qmake qttools5-dev-tools lib-dev lib-dev libdtkwidget-dev
 ```
 
-### Build Deepin Boot Maker
+### 编译简OS启动盘制作器
 
 ```
 mkdir build
@@ -23,11 +23,11 @@ qmake -r ..
 make
 ```
 
-## Windows Platform
+## Windows平台
 
-### Development Environment
+### 开发环境
 
-- Windows 10 64bit
+- Windows 10 64位
 - Microsoft Visual C++ 2017
 - Windows SDK
 - Qt5.8
@@ -43,11 +43,11 @@ configure -prefix "C:\Qt\QtStatic\5.8\vs2017" -release -platform win32-msvc2010 
 -qt-libpng -qt-freetype -qt-libjpeg -opengl es2 -angle
 ```
 
-### Build Dtk
+### 编译Dtk
 
 TODO
 
-### Build Deepin Boot Maker
+### 编译简OS启动盘制作器
 
 ```
 mkdir build
@@ -57,24 +57,24 @@ nmake
 ```
 
 
-## Mac OSX Platform
+## Mac OSX平台
 
-### Development Environment
+### 开发环境
 
 - Mac OS 10.12
 - Qt5.8
 
-### Set Qt PATH
+### 设置Qt路径
 
 ```
 export QtInstallPath=/User/yourhome/Qt5.8/5.8/clang_64
 export PATH=$QtInstallPath/bin:$PATH
 ```
-### Build Dtk
+### 编译Dtk
 
 TODO
 
-### Build Deepin Boot Maker
+### 编译简OS启动盘制作器
 
 ```
 mkdir build
